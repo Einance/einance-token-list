@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <a href="javascript:test()">Test CORS</a>
+    <script>
+      function test() {
+        // var url = 'https://einance-token-list-1257759913.cos-website.ap-guangzhou.myqcloud.com/einance.tokenlist.json';
+        var url = 'https://token-list.einance.com/einance.tokenlist.json';
+        var xhr = new XMLHttpRequest();
+        xhr.open('HEAD', url);
+        xhr.onload = function () {
+          var headers = xhr.getAllResponseHeaders().replace(/\r\n/g, '\n');
+          alert(
+            'request success, CORS allow.\n' +
+              'url: ' +
+              url +
+              '\n' +
+              'status: ' +
+              xhr.status +
+              '\n' +
+              'headers:\n' +
+              headers
+          );
+        };
+        xhr.onerror = function () {
+          alert('request error, maybe CORS error.');
+        };
+        xhr.send();
+      }
+    </script>
+  </body>
+</html>

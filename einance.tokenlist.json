@@ -1,0 +1,985 @@
+{
+  "name": "EinanceSwap",
+  "logoURI": "https://token-icons.einance.com/icon/token_list.png",
+  "keywords": [
+    "defi",
+    "einance",
+    "yield"
+  ],
+  "timestamp": "2021-03-20T12:17:43.269Z",
+  "tokens": [
+    {
+      "chainId": 256,
+      "name": "Einance Swap",
+      "address": "0xe64902EC782BAD3dcE8550A60C3007eBC4E2a04c",
+      "symbol": "ENS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ENS.png"
+    },
+    {
+      "chainId": 256,
+      "name": "Einance Lending",
+      "address": "0xa11Dd83587927a979c7BE3F7A6e0D718FaeA5A71",
+      "symbol": "ENL",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ENL.png"
+    },
+    {
+      "chainId": 256,
+      "name": "einance lending BTC",
+      "address": "0x001ee315e731cd421906682619e5714a4236d0f5",
+      "symbol": "elBTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/elBTC.png"
+    },
+    {
+      "chainId": 256,
+      "name": "wrapped BTC",
+      "address": "0x84C6Ae2888f954Ea041fc541408d302F163f8194",
+      "symbol": "wBTC",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/wBTC.png"
+    },
+    {
+      "chainId": 256,
+      "name": "Heco USD",
+      "address": "0x8dd66eefef4b503eb556b1f50880cc04416b916b",
+      "symbol": "HUSD",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HUSD.png"
+    },
+    {
+      "chainId": 256,
+      "name": "Heco BTC",
+      "address": "0x1d8684e6cdd65383affd3d5cf8263fcda5001f13",
+      "symbol": "HBTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HBTC.png"
+    },
+    {
+      "chainId": 256,
+      "name": "USD Tether",
+      "address": "0x04f535663110a392a6504839beed34e019fdb4e0",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://token-icons.einance.com/public/icon/USDT.png"
+    },
+    {
+      "chainId": 256,
+      "name": "USD Coin",
+      "address": "0xd459dad367788893c17c09e17cfbf0bf25c62833",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://token-icons.einance.com/public/icon/USDC.png"
+    },
+    {
+      "chainId": 256,
+      "name": "DAI",
+      "address": "0x60d64ef311a4f0e288120543a14e7f90e76304c6",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/DAI.png"
+    },
+    {
+      "chainId": 256,
+      "name": "ChainLink",
+      "address": "0x3e24e9d2c824b0ac2c82edc931b67252099b8e79",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LINK.png"
+    },
+    {
+      "chainId": 256,
+      "name": "True USD",
+      "address": "0xdb4c5b219168f926c2c0c776438b8355a3a4018e",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/TUSD.png"
+    },
+    {
+      "chainId": 256,
+      "name": "wrapped HT",
+      "address": "0xf6cf0Eed6E2B3575f1f4d465fC8E1e5aA7CFc93A",
+      "symbol": "WHT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/WHT.png"
+    },
+    {
+      "chainId": 256,
+      "name": "Maker",
+      "address": "0x8F8c70e5E9A013B32600e338e4bBE6364caAF5BB",
+      "symbol": "MKR",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/MKR.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Einance Swap",
+      "address": "0xFb8B1e6Fb42A3aD81536AA537f14199D79A0eFc4",
+      "symbol": "ENS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ENS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Einance Lending",
+      "address": "0xD89618B0B76b2cbFe3720CE5eF359e8DE2710Ef1",
+      "symbol": "ENL",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ENL.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Einance Lending HUSD",
+      "address": "0x532e575A974560cB5DcDcA11c7246589A59e035b",
+      "symbol": "ELHUSD",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ELHUSD.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Einance Lending HBTC",
+      "address": "0xBB47A85528388B182E43635F94FeF895CD25cf09",
+      "symbol": "ELHBTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ELHBTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Einance Lending ETH",
+      "address": "0x3B8D074C5199ba480F4d764324AbF75f9cF31541",
+      "symbol": "ELETH",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ELETH.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Einance Lending USDT",
+      "address": "0xD14E5d47eA31dE2a2b659968362a01A3539F145e",
+      "symbol": "ELUSDT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ELUSDT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Einance Swap HT",
+      "address": "0xa309fda5ee1fcb75852054718d4220ac0440f247",
+      "symbol": "EHT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/EHT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Filda HT",
+      "address": "0x824151251B38056d54A15E56B73c54ba44811aF8",
+      "symbol": "FHT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/FHT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Filda HUSD",
+      "address": "0xB16Df14C53C4bcfF220F4314ebCe70183dD804c0",
+      "symbol": "FHUSD",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/FHUSD.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Filda HBTC",
+      "address": "0xF2a308d3Aea9bD16799A5984E20FDBfEf6c3F595",
+      "symbol": "FHBTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/FHBTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Filda ETH",
+      "address": "0x033F8C30bb17B47f6f1f46F3A42Cc9771CCbCAAE",
+      "symbol": "FETH",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/FETH.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Lendhub HUSD",
+      "address": "0x1c478d5d1823d51c4c4b196652912a89d9b46c30",
+      "symbol": "LHUSD",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LHUSD.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Lendhub HBTC",
+      "address": "0x1E5829E405654070cf4eaeFEA46d9a848A81462b",
+      "symbol": "LHBTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LHBTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Lendhub ETH",
+      "address": "0x505Bdd86108E7d9d662234F6a5F8A4CBAeCE81AB",
+      "symbol": "LETH",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LETH.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Lendhub USDT",
+      "address": "0xc502F3f6f1b71CB7d856E70B574D27d942C2993C",
+      "symbol": "LUSDT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LUSDT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Channels HUSD",
+      "address": "0x9a57eAB16d371048c56cbE0c4D608096aEC5b405",
+      "symbol": "CHUSD",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/CHUSD.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Channels HBTC",
+      "address": "0x8feFb583e077de36F68444a14E68172b01e27dD7",
+      "symbol": "CHBTC",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/CHBTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Channels ETH",
+      "address": "0x01371C08E2AE6F78D42c9796FA20DDb245Df3885",
+      "symbol": "CETH",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/CETH.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Channels USDT",
+      "address": "0x3dA74C09ccb8faBa3153b7f6189dDA9d7F28156A",
+      "symbol": "CUSDT",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/CUSDT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg HUSD Token",
+      "address": "0x0298c2b32eae4da002a15f36fdf7615bea3da047",
+      "symbol": "HUSD",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/HUSD.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg ETH Token",
+      "address": "0x64ff637fb478863b7468bc97d30a5bf3a428a1fd",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ETH.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg HBTC Token",
+      "address": "0x66a79d23e58475d2738179ca52cd0b41d73f0bea",
+      "symbol": "HBTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HBTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Game Dao Protocol",
+      "address": "0x0f1ed0e22a74a90d92746a1794394da117e4de40",
+      "symbol": "GDT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/GDT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "FCS",
+      "address": "0x1b31b55cD94493d06C7a51678fb1Fe8963258A5d",
+      "symbol": "FCS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/FCS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Antimatter.Finance Mapping Token",
+      "address": "0x1c9491865a1de77c5b6e19d2e6a5f1d7a6f2b25f",
+      "symbol": "MATTER",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/MATTER.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HT ANCHOR CASH",
+      "address": "0x1d9b88fffb7b78de890729af67b68aec2ea57d52",
+      "symbol": "HTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Channels",
+      "address": "0x1e6395e6b059fc97a4dda925b6c5ebf19e05c69f",
+      "symbol": "CAN",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/CAN.png"
+    },
+    {
+      "chainId": 128,
+      "name": "WBTC",
+      "address": "0x2A511012653e8134aF24fb9A7738bCBd5139A1cD",
+      "symbol": "WBTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/WBTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg GOF Token",
+      "address": "0x2AAFe3c9118DB36A20dd4A942b6ff3e78981dce1",
+      "symbol": "GOF",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/GOF.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HWIN",
+      "address": "0x2eFFC887B3195D7c8f3966A07c421D828E8F8AeE",
+      "symbol": "HWIN",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HWIN.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Super Hero",
+      "address": "0x3dc2536480775d0aB5d1D010B853cd2166cf6e11",
+      "symbol": "SH",
+      "decimals": 12,
+      "logoURI": "https://token-icons.einance.com/public/icon/SH.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Galaxy Set Dollar",
+      "address": "0x03FA282789AF9E2574A47024b5EF1F5074edE92F",
+      "symbol": "GSD",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/GSD.png"
+    },
+    {
+      "chainId": 128,
+      "name": "SLN-Token V2",
+      "address": "0x4e252342cf35Ff02c4CCA9bc655129f5b4a2f901",
+      "symbol": "SLNV2",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/SLNV2.png"
+    },
+    {
+      "chainId": 128,
+      "name": "LLS",
+      "address": "0x5a42eeD7200d23F0D4CF35Ccd582D6d363F16BFc",
+      "symbol": "LLS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LLS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "WETH",
+      "address": "0x05ac246236181033dd24a395afbb160764858bc7",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/WETH.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BLS",
+      "address": "0x5ee4E3a8bd0E865205e95908B290c4578CaBbEff",
+      "symbol": "BLS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BLS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "LLC",
+      "address": "0x6A4db3965CB6293dBA0F63F14FB36873172E38d3",
+      "symbol": "LLC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LLC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HBS",
+      "address": "0x7d7063f3dca97eaE63545a266c77587dD0296090",
+      "symbol": "HBS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HBS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "OpenLand",
+      "address": "0x7Eed8a3ccfe3d507ec4Df443773eaE792b9eF2d7",
+      "symbol": "PTT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/PTT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HT ANCHOR BOND",
+      "address": "0x8AA40B42a35b8cCB616f5ecE8b28A2313D0CC08A",
+      "symbol": "HTB",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HTB.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BLC",
+      "address": "0x8AD1caE277B17Ca0Ad0393100E6EBd545B9367Cb",
+      "symbol": "BLC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BLC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "LendHub",
+      "address": "0x8F67854497218043E1f72908FFE38D0Ed7F24721",
+      "symbol": "LHB",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LHB.png"
+    },
+    {
+      "chainId": 128,
+      "name": "WUSD",
+      "address": "0x9BCF032fC2C4d7E0193a4e0c3a441938129724A6",
+      "symbol": "WUSD",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/WUSD.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BOOK",
+      "address": "0x9cc51365f1D93a39f2646e40140CE138c549cbf1",
+      "symbol": "BOOK",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BOOK.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg LINK Token",
+      "address": "0x9e004545c59D359F6B7BFB06a26390b087717b42",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LINK.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco Yoda Token",
+      "address": "0x9EDE2Df15DEeEE26A916B9B93Ea7d9363D7531D7",
+      "symbol": "HYOT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HYOT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "TokenPocket Token",
+      "address": "0x9ef1918a9beE17054B35108bD3E2665e2Af1Bb1b",
+      "symbol": "TPT",
+      "decimals": 4,
+      "logoURI": "https://token-icons.einance.com/public/icon/TPT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "FC",
+      "address": "0x12fAC6B5Fa0bc6250058D99d3a1727628651c12E",
+      "symbol": "FC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/FC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BXC",
+      "address": "0x15F4c382926F8A083bC924AbD3aa84Ce3982CAa9",
+      "symbol": "BXC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BXC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg UNI Token",
+      "address": "0x22C54cE8321A4015740eE1109D9cBc25815C46E6",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/UNI.png"
+    },
+    {
+      "chainId": 128,
+      "name": "MDX Token",
+      "address": "0x25D2e80cB6B86881Fd7e07dd263Fb79f4AbE033c",
+      "symbol": "MDX",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/MDX.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg MKR Token",
+      "address": "0x34D75515090902a513F009f4505A750efaaD63b0",
+      "symbol": "MKR",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/MKR.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg BAL Token",
+      "address": "0x045De15Ca76e76426E8Fc7cba8392A3138078D0F",
+      "symbol": "BAL",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BAL.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg HXTZ Token",
+      "address": "0x45e97daD828AD735af1dF0473fc2735F0Fd5330c",
+      "symbol": "HXTZ",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HXTZ.png"
+    },
+    {
+      "chainId": 128,
+      "name": "ComProToken",
+      "address": "0x46EFB7724364ded21b3598519D754323A4f66EC9",
+      "symbol": "COPR",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/COPR.png"
+    },
+    {
+      "chainId": 128,
+      "name": "MX Token",
+      "address": "0x48C1D1f0d5281FbB0bec2E699846fA615d55f3D4",
+      "symbol": "MX",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/MX.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Depth Token",
+      "address": "0x48C859531254F25e57D1C1A8E030Ef0B1c895c27",
+      "symbol": "DEP",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/DEP.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Sovi Token",
+      "address": "0x49e16563a2ba84E560780946f0Fb73A8B32C841E",
+      "symbol": "SOVI",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/SOVI.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Lavaswap",
+      "address": "0x56f95662E71f30b333b456439248c6dE589082a4",
+      "symbol": "LAVA",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LAVA.png"
+    },
+    {
+      "chainId": 128,
+      "name": "EarnDefiCoin",
+      "address": "0x68a0A1fEF18DfCC422Db8bE6F0F486dEa1999EDC",
+      "symbol": "EDC",
+      "decimals": 9,
+      "logoURI": "https://token-icons.einance.com/public/icon/EDC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HBC",
+      "address": "0x72bd642c5d097344814afe23f7e6001f19f6204a",
+      "symbol": "HBC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HBC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "DollarBalanceCash",
+      "address": "0x80DccC9BDC9b1659a226AE669457BD1e0b293A9b",
+      "symbol": "DBC",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/DBC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "WUSDT",
+      "address": "0x82Be5c3CA3f061048062710ab359a66DCCaF9B22",
+      "symbol": "WUSDT",
+      "decimals": 6,
+      "logoURI": "https://token-icons.einance.com/public/icon/WUSDT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HFI",
+      "address": "0x98fc3b60Ed4A504F588342A53746405E355F9347",
+      "symbol": "HFI",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HFI.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Oscar Cash",
+      "address": "0x119AD5Bc698D701c6a3265081027B3D3Df227bB3",
+      "symbol": "OSC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/OSC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg AAVE Token",
+      "address": "0x202b4936fE1a82A4965220860aE46d7d3939Bb25",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/AAVE.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg SWFTC Token",
+      "address": "0x329dda64Cbc4DFD5FA5072b447B3941CE054ebb3",
+      "symbol": "SWFTC",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/SWFTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BkexChain",
+      "address": "0x350aE659B0010895b9E18400e9356B43BABc9139",
+      "symbol": "BKK",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BKK.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HT ANCHOR SHARE",
+      "address": "0x559c0af22D0d3efA9a8b95f2E4eaf6017aEa4c22",
+      "symbol": "HTS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HTS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HNB Token",
+      "address": "0x704F96F04279ec8eB570e520EFcE56F9245CAc38",
+      "symbol": "HNB",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HNB.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Decentralized Mining Coin",
+      "address": "0x854Bb58fDDa85F20b5aB20B20d888f0554c02560",
+      "symbol": "DMC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/DMC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Avant sport",
+      "address": "0x891dAABF6de7a648C9665928E1097b808C1721e2",
+      "symbol": "AS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/AS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Ins3.Finance Coin",
+      "address": "0x943D97ad0b597F73425d6f740596D0efD3d62507",
+      "symbol": "ITF",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ITF.png"
+    },
+    {
+      "chainId": 128,
+      "name": "HIS",
+      "address": "0x3513F22a33357Ba82373680B14f0B50642d0709d",
+      "symbol": "HIS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HIS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "PolyNetwork NEO",
+      "address": "0x6514a5Ebff7944099591Ae3e8A5c0979C83B2571",
+      "symbol": "pNEO",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/pNEO.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BAGS",
+      "address": "0x6868D406a125Eb30886A6DD6B651D81677d1F22c",
+      "symbol": "BAGS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BAGS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Hash Bridge Oracle",
+      "address": "0x8764Bd4fcc027faF72bA83c0b2028a3BAE0D2D57",
+      "symbol": "HBO",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HBO.png"
+    },
+    {
+      "chainId": 128,
+      "name": "SHARE",
+      "address": "0x41198c6736d23734E6d17a6F0B4f2D15d2621A3a",
+      "symbol": "SHARE",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/SHARE.png"
+    },
+    {
+      "chainId": 128,
+      "name": "DFuture Token",
+      "address": "0x42712dF5009c20fee340B245b510c0395896cF6e",
+      "symbol": "DFT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/DFT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "ODT",
+      "address": "0x991075Cc14A91Fe001528943B3EB6DF31CfF431F",
+      "symbol": "ODT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ODT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Wrapped HT",
+      "address": "0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F",
+      "symbol": "WHT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/WHT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Non homogeneous assets",
+      "address": "0x958788357d9C9f0C3eAc4BFDF6869aB94710734D",
+      "symbol": "NHA",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/NHA.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg SNX Token",
+      "address": "0x777850281719d5a96C29812ab72f822E0e09F3Da",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/SNX.png"
+    },
+    {
+      "chainId": 128,
+      "name": "ELA on HuobiChain",
+      "address": "0xa1ecFc2beC06E4b43dDd423b94Fef84d0dBc8F5c",
+      "symbol": "ELA",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/ELA.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg HDOT Token",
+      "address": "0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3",
+      "symbol": "HDOT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HDOT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BAG",
+      "address": "0xa042fb0e60125A4022670014AC121931e7501Af4",
+      "symbol": "BAG",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BAG.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg USDTHECO Token",
+      "address": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/USDT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Lucky Finance",
+      "address": "0xA441b796E160E204Cd0f53D3216275056a355980",
+      "symbol": "LYFI",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/LYFI.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg HFIL Token",
+      "address": "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810",
+      "symbol": "HFIL",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HFIL.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BEE",
+      "address": "0xB1F80844a1B84c61ab80CafD88B1f8c09f9342e1",
+      "symbol": "BEE",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BEE.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg YFI Token",
+      "address": "0xB4F019bEAc758AbBEe2F906033AAa2f0F6Dacb35",
+      "symbol": "YFI",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/YFI.png"
+    },
+    {
+      "chainId": 128,
+      "name": "sCASH",
+      "address": "0xb6ccFA7Ef3a295932536E0988CffD85228cB177c",
+      "symbol": "sCASH",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/sCASH.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BXS",
+      "address": "0xbe0e001A5553f4421DC250A20bBdAb0e735495e3",
+      "symbol": "BXS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BXS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg HBSV Token",
+      "address": "0xc2CB6B5357CcCE1B99Cd22232942D9A225Ea4eb1",
+      "symbol": "HBSV",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HBSV.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BLC",
+      "address": "0xC657D9664f9A011A3aEDedaB8A0296DC60284E5f",
+      "symbol": "BLC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BLC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "BLS",
+      "address": "0xc44468670837b8e0Cc39Cb822FFd2fE36Fb02Bb7",
+      "symbol": "BLS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/BLS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Decentralized Hash Power",
+      "address": "0xca757A8fc34c5d65f38792f329b05E7d9ca8b18E",
+      "symbol": "DHM",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/DHM.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg COMP Token",
+      "address": "0xCe0A5CA134fb59402B723412994B30E02f083842",
+      "symbol": "COMP",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/COMP.png"
+    },
+    {
+      "chainId": 128,
+      "name": "NULS",
+      "address": "0xD938e45680dA19ad36646AE8D4C671B2b1270F39",
+      "symbol": "NULS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/NULS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "fixed.finance",
+      "address": "0xDe9495De889996404b14dDBf05f66Db7401F0733",
+      "symbol": "FIX",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/FIX.png"
+    },
+    {
+      "chainId": 128,
+      "name": "xFarmer",
+      "address": "0xE0fE25EeFCfcadDEF844fe30b8Be1d68ac6B7aF3",
+      "symbol": "XF",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/XF.png"
+    },
+    {
+      "chainId": 128,
+      "name": "VNLA Token",
+      "address": "0xE09A504071C0c1483E86727fb95f550a0559d9D2",
+      "symbol": "VNLA",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/VNLA.png"
+    },
+    {
+      "chainId": 128,
+      "name": "FilDA on Heco",
+      "address": "0xE36FFD17B2661EB57144cEaEf942D95295E637F0",
+      "symbol": "FILDA",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/FILDA.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg HPT Token",
+      "address": "0xE499Ef4616993730CEd0f31FA2703B92B50bB536",
+      "symbol": "HPT",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HPT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Oscar Share",
+      "address": "0xEA6516fB86dc8A623425ad557335AA0C4ebd2386",
+      "symbol": "OSS",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/OSS.png"
+    },
+    {
+      "chainId": 128,
+      "name": "Heco-Peg HLTC Token",
+      "address": "0xecb56cf772B5c9A6907FB7d32387Da2fCbfB63b4",
+      "symbol": "HLTC",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/HLTC.png"
+    },
+    {
+      "chainId": 128,
+      "name": "NerveNetwork",
+      "address": "0xf0E406c49C63AbF358030A299C0E00118C4C6BA5",
+      "symbol": "NVT",
+      "decimals": 8,
+      "logoURI": "https://token-icons.einance.com/public/icon/NVT.png"
+    },
+    {
+      "chainId": 128,
+      "name": "DAI",
+      "address": "0x60d64ef311a4f0e288120543a14e7f90e76304c6",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://token-icons.einance.com/public/icon/DAI.png"
+    }
+  ],
+  "version": {
+    "major": 2,
+    "minor": 11,
+    "patch": 0
+  }
+}
